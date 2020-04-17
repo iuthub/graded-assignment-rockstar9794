@@ -1,3 +1,11 @@
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/views', function () {
+  return View('layout.tasks');
+})
+
 <?php
 
 use Illuminate\Support\Facades\Route;
